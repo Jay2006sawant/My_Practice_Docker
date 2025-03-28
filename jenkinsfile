@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage(Git Checkout){
             steps{
-                git branch: 'main' url :" https://github.com/Jay2006sawant/My_Practice_Docker.git"
+                git branch: 'main', url :" https://github.com/Jay2006sawant/My_Practice_Docker.git"
             }
         }
         stage('Build'){
